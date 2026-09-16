@@ -37,4 +37,4 @@
 
 ### 联系
 
-📮 <a href="mailto:1443391710@qq.com">1443391710@qq.com</a>
+📮 <a href="mailto:m4rh0zen@foxmail.com">m4rh0zen@foxmail.com</a>
