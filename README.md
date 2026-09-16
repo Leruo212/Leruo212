@@ -10,6 +10,10 @@
 
 ### 精选项目
 
+**[dna-ssl-project](https://github.com/Leruo212/dna-ssl-project)** &nbsp;`PyTorch` `自监督学习` `生物信息`
+
+DNA 序列的自我监督表征学习：用掩码重构在未标注基因组片段上预训练 CNN 编码器，再迁移到四物种分类。附带完整的训练日志、PCA / t-SNE 可视化，以及一份把失败原因查到根上的复盘。
+
 **[screenshare-p2p](https://github.com/Leruo212/screenshare-p2p)** &nbsp;`WebRTC` `PeerJS` `Vanilla JS`
 
 浏览器点对点屏幕共享，不需要任何云服务器。把链接发给对方，点开就能看 —— 信令只走公共 broker，画面端到端直连。
@@ -17,7 +21,7 @@
 
 **[boe-growth-agent](https://github.com/Leruo212/boe-growth-agent)** &nbsp;`React 19` `Express 5` `Coze API`
 
-对话式工作记录助手。随口说今天做了什么，自动整理成日 / 周 / 月 / 季 / 年结构化报告，附带成长亮点识别。
+对话式工作记录助手。随口说今天做了什么，自动整理成日 / 周 / 月 / 季 / 年结构化报告。
 
 **[chinese-relative-title-calculator](https://github.com/Leruo212/chinese-relative-title-calculator)** &nbsp;`Python`
 
