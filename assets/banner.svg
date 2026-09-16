@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" fill="none" role="img" aria-label="M1r4th0R - AI Algorithm Engineer, Chongqing">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" fill="none" role="img" aria-label="M1r4th0R - AI Algorithm Engineer, Chongqing. Contact m4rh0zen@foxmail.com">
   <style>
     .sans { font-family: "Inter", "SF Pro Display", -apple-system, "Helvetica Neue", "Segoe UI", Arial, sans-serif; }
     .mono { font-family: "SF Mono", "JetBrains Mono", "Roboto Mono", Menlo, Consolas, monospace; }
@@ -9,10 +9,11 @@
     .name   { fill: #111114; }
     .stack  { fill: #5A5A64; }
     .rule   { fill: #2E5BFF; }
+    .chip   { fill: #2E5BFF; fill-opacity: .09; stroke: #2E5BFF; stroke-opacity: .22; }
+    .mail   { fill: #2E5BFF; }
     .bar    { fill: #2E5BFF; fill-opacity: .20; transform-box: fill-box; transform-origin: 50% 100%;
                 animation: wave 6.0s ease-in-out infinite; }
     .head   { fill: #2E5BFF; fill-opacity: .55; animation: sweep 6.0s cubic-bezier(.42,0,.58,1) infinite; }
-    .handle { fill: #AFAFB8; }
 
     @keyframes wave {
       0%, 100% { transform: scaleY(1); }
@@ -39,9 +40,10 @@
       .name   { fill: #F5F5F7; }
       .stack  { fill: #9A9AA4; }
       .rule   { fill: #6B8CFF; }
+      .chip   { fill: #6B8CFF; fill-opacity: .13; stroke: #6B8CFF; stroke-opacity: .30; }
+      .mail   { fill: #6B8CFF; }
       .bar    { fill: #6B8CFF; fill-opacity: .26; }
       .head   { fill: #6B8CFF; fill-opacity: .60; }
-      .handle { fill: #55555F; }
     }
   </style>
 
@@ -49,7 +51,10 @@
   <rect class="frame" x="0.5" y="0.5" width="1279" height="319" stroke-width="1"/>
 
   <text class="sans kicker" x="88" y="92" font-size="12" font-weight="600" letter-spacing="2.6">AI ALGORITHM ENGINEER · CHONGQING</text>
-  <text class="mono handle" x="1189" y="92" font-size="12" letter-spacing="0.6" text-anchor="end">github.com/Leruo212</text>
+
+  <rect class="chip" x="978" y="72" width="214" height="33" rx="16.5" stroke-width="1"/>
+  <text class="mono mail" x="995" y="93.9" font-size="15" font-weight="600"
+        textLength="180" lengthAdjust="spacing">m4rh0zen@foxmail.com</text>
 
   <text class="sans name" x="88" y="184" font-size="84" font-weight="700" letter-spacing="-2.6">M1r4th0R</text>
 
