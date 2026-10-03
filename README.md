@@ -22,6 +22,22 @@
   用掩码重构在未标注的基因组片段上预训练 CNN 编码器，再迁移到四物种分类。附完整训练日志、t-SNE 可视化，以及一份把失败原因查到根上的复盘。
 </td>
 <td width="50%" valign="top">
+  <a href="https://github.com/Leruo212/ev-range-agent"><img src="assets/projects/ev-range-agent.png" alt="ev-range-agent — 电车真实续航参谋" width="100%"></a>
+  <br>
+  <b><a href="https://github.com/Leruo212/ev-range-agent">ev-range-agent</a></b>
+  <br>
+  <sub><code>Vanilla JS</code> <code>LLM Agent</code> <code>零依赖</code></sub>
+  <br><br>
+  电车真实续航参谋。给出车型、人数、出发地与目的地，自动拉取真实路网、地形海拔和沿途天气，把每一度电花在哪儿算清楚 —— 尤其是爬坡多耗的、下坡回收的。
+  <br>
+  → <a href="https://leruo212.github.io/ev-range-agent/">在线体验</a>
+</td>
+</tr>
+<tr>
+<td colspan="2">&nbsp;</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
   <a href="https://github.com/Leruo212/screenshare-p2p"><img src="assets/projects/screenshare-p2p.png" alt="screenshare-p2p — 点对点屏幕共享" width="100%"></a>
   <br>
   <b><a href="https://github.com/Leruo212/screenshare-p2p">screenshare-p2p</a></b>
@@ -32,11 +48,6 @@
   <br>
   → <a href="https://leruo212.github.io/screenshare-p2p/screenshare.html">在线入口</a>
 </td>
-</tr>
-<tr>
-<td colspan="2">&nbsp;</td>
-</tr>
-<tr>
 <td width="50%" valign="top">
   <a href="https://github.com/Leruo212/boe-growth-agent"><img src="assets/projects/boe-growth-agent.png" alt="boe-growth-agent — 工作记录与成长追踪助手" width="100%"></a>
   <br>
@@ -46,6 +57,11 @@
   <br><br>
   对话式工作记录助手。随口说一句今天做了什么，自动整理成日 / 周 / 月 / 季 / 年结构化报告。
 </td>
+</tr>
+<tr>
+<td colspan="2">&nbsp;</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
   <a href="https://github.com/Leruo212/chinese-relative-title-calculator"><img src="assets/projects/chinese-relative-title-calculator.png" alt="chinese-relative-title-calculator — 亲戚称呼计算器" width="100%"></a>
   <br>
@@ -55,6 +71,7 @@
   <br><br>
   中国亲戚称呼推算 —— 「我爸爸的表哥的女儿我该叫什么」，算个准话。
 </td>
+<td width="50%" valign="top"></td>
 </tr>
 </table>
 
