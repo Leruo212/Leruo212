@@ -13,13 +13,13 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-  <a href="https://github.com/Leruo212/stock-quant-agent"><img src="assets/projects/stock-quant-agent.png" alt="stock-quant-agent — 股票量化复现与大模型 Agent" width="100%"></a>
+  <a href="https://github.com/Leruo212/stock-quant-agent"><img src="assets/projects/stock-quant-agent.png" alt="stock-quant-agent — A 股量化研究工作台" width="100%"></a>
   <br>
   <b><a href="https://github.com/Leruo212/stock-quant-agent">stock-quant-agent</a></b>
   <br>
-  <sub><code>PyTorch</code> <code>LLM Agent</code> <code>可复现性</code></sub>
+  <sub><code>PyTorch</code> <code>LLM Agent</code> <code>量化研究</code></sub>
   <br><br>
-  把本科毕设的股票量化系统重建了一遍，然后如实报告：论文 78.3% 的预测准确率复现不出来（实测 49.74%，IC≈0），策略「跑赢指数」是幸存者偏差 —— 同等权持有同一批股票反而跑输 22 个百分点。附 CNN-LSTM-Attention、大模型预测台账、完整证据链。
+  沪深300 日频量化研究工作台。CNN-LSTM-Attention 基线模型 + 大模型预测 Agent，配三级容错取数、三基准回测、IC 与分层检验，以及一套记录每次真实预测的台账。自带 API key 即可在浏览器里直接对话。
   <br>
   → <a href="https://leruo212.github.io/stock-quant-agent/">在线体验</a>
 </td>
