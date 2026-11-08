@@ -13,6 +13,17 @@
 <table>
 <tr>
 <td width="50%" valign="top">
+  <a href="https://github.com/Leruo212/stock-quant-agent"><img src="assets/projects/stock-quant-agent.png" alt="stock-quant-agent — 股票量化复现与大模型 Agent" width="100%"></a>
+  <br>
+  <b><a href="https://github.com/Leruo212/stock-quant-agent">stock-quant-agent</a></b>
+  <br>
+  <sub><code>PyTorch</code> <code>LLM Agent</code> <code>可复现性</code></sub>
+  <br><br>
+  把本科毕设的股票量化系统重建了一遍，然后如实报告：论文 78.3% 的预测准确率复现不出来（实测 49.74%，IC≈0），策略「跑赢指数」是幸存者偏差 —— 同等权持有同一批股票反而跑输 22 个百分点。附 CNN-LSTM-Attention、大模型预测台账、完整证据链。
+  <br>
+  → <a href="https://leruo212.github.io/stock-quant-agent/">在线体验</a>
+</td>
+<td width="50%" valign="top">
   <a href="https://github.com/Leruo212/dna-ssl-project"><img src="assets/projects/dna-ssl-project.png" alt="dna-ssl-project — DNA 序列自监督表示学习" width="100%"></a>
   <br>
   <b><a href="https://github.com/Leruo212/dna-ssl-project">dna-ssl-project</a></b>
@@ -21,6 +32,11 @@
   <br><br>
   用掩码重构在未标注的基因组片段上预训练 CNN 编码器，再迁移到四物种分类。附完整训练日志、t-SNE 可视化，以及一份把失败原因查到根上的复盘。
 </td>
+</tr>
+<tr>
+<td colspan="2">&nbsp;</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
   <a href="https://github.com/Leruo212/ev-range-agent"><img src="assets/projects/ev-range-agent.png" alt="ev-range-agent — 电车真实续航参谋" width="100%"></a>
   <br>
@@ -32,11 +48,6 @@
   <br>
   → <a href="https://leruo212.github.io/ev-range-agent/">在线体验</a>
 </td>
-</tr>
-<tr>
-<td colspan="2">&nbsp;</td>
-</tr>
-<tr>
 <td width="50%" valign="top">
   <a href="https://github.com/Leruo212/screenshare-p2p"><img src="assets/projects/screenshare-p2p.png" alt="screenshare-p2p — 点对点屏幕共享" width="100%"></a>
   <br>
@@ -48,6 +59,11 @@
   <br>
   → <a href="https://leruo212.github.io/screenshare-p2p/screenshare.html">在线入口</a>
 </td>
+</tr>
+<tr>
+<td colspan="2">&nbsp;</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
   <a href="https://github.com/Leruo212/boe-growth-agent"><img src="assets/projects/boe-growth-agent.png" alt="boe-growth-agent — 工作记录与成长追踪助手" width="100%"></a>
   <br>
@@ -57,11 +73,6 @@
   <br><br>
   对话式工作记录助手。随口说一句今天做了什么，自动整理成日 / 周 / 月 / 季 / 年结构化报告。
 </td>
-</tr>
-<tr>
-<td colspan="2">&nbsp;</td>
-</tr>
-<tr>
 <td width="50%" valign="top">
   <a href="https://github.com/Leruo212/chinese-relative-title-calculator"><img src="assets/projects/chinese-relative-title-calculator.png" alt="chinese-relative-title-calculator — 亲戚称呼计算器" width="100%"></a>
   <br>
@@ -82,6 +93,7 @@
 |---|---|
 | **语言** | Python · JavaScript / TypeScript · SQL |
 | **建模** | PyTorch · CNN / Transformer · 自监督表示学习 |
+| **评测** | 回测与基准对照 · IC / 分层分析 · LLM 预测台账 |
 | **应用** | RAG · MCP · Agent · React · Node.js |
 
 ---
