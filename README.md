@@ -1,10 +1,20 @@
 <img src="assets/banner.svg" alt="M1r4th0R — AI Algorithm Engineer" width="100%">
 
+<p align="center">
+  <a href="#中文版"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87%E7%89%88-4E9A06?style=for-the-badge" alt="中文版"></a>
+  &nbsp;
+  <a href="#english"><img src="https://img.shields.io/badge/English-1F4E79?style=for-the-badge" alt="English"></a>
+</p>
+
+---
+
+## 中文版
+
 ### 关于
 
 算法工程。习惯把一件事做完整：从数据清洗、模型训练，一路到打包成别人能直接点开用的东西。
 
-目前在工业制造场景做缺陷检测与良率分析。
+2026 年在京东方重庆 B8 做缺陷检测与良率分析，把模型判定的准确率变成了产线敢用的复判率。现在专注 AI 应用的落地与评测：一个模型跑通不算完，得有人愿意用、错了有人兜底，才算完。
 
 ---
 
@@ -101,3 +111,54 @@
 ### 联系
 
 📮 <a href="mailto:m4rh0zen@foxmail.com">m4rh0zen@foxmail.com</a>
+
+<br>
+
+## English
+
+### About
+
+I build systems end to end: data cleaning, model training, and the packaging that lets someone else actually open and use the result.
+
+In 2026 I worked on defect detection and yield analysis at BOE's B8 plant in Chongqing. The part that mattered was not model accuracy but the re-inspection rate the line was willing to accept. That is what I work on now: getting AI into places where people use it, with a fallback for when it is wrong.
+
+---
+
+### Selected Projects
+
+**[stock-quant-agent](https://github.com/Leruo212/stock-quant-agent)** · `PyTorch` `LLM Agent`
+A daily-frequency quant research workbench for the CSI 300. CNN-LSTM-Attention baseline plus an LLM forecasting agent, three-tier data fallback, backtesting against three benchmarks, IC and decile analysis, and a ledger that records every live prediction. Runs in the browser with your own API key. → [Live demo](https://leruo212.github.io/stock-quant-agent/)
+
+**[dna-ssl-project](https://github.com/Leruo212/dna-ssl-project)** · `PyTorch` `Self-supervised`
+Masked-reconstruction pretraining of a CNN encoder on unlabelled genomic fragments, transferred to four-species classification. Ships with full training logs, t-SNE plots, and a post-mortem that traces a failure to its root.
+
+**[ev-range-agent](https://github.com/Leruo212/ev-range-agent)** · `Vanilla JS` `LLM Agent`
+An EV range advisor. Give it a model, passenger count, origin and destination; it pulls real road networks, elevation and en-route weather, then accounts for every kWh, including what a climb costs and what a descent returns. → [Live demo](https://leruo212.github.io/ev-range-agent/)
+
+**[screenshare-p2p](https://github.com/Leruo212/screenshare-p2p)** · `WebRTC` `PeerJS`
+Peer-to-peer screen sharing in the browser with no server of your own. Send the link and the other side sees your screen. Signalling goes through a public broker; the video connects directly. → [Open](https://leruo212.github.io/screenshare-p2p/screenshare.html)
+
+**[boe-growth-agent](https://github.com/Leruo212/boe-growth-agent)** · `React 19` `Express 5` `Coze API`
+A conversational work-log assistant. Say what you did today; it becomes a structured daily, weekly, monthly, quarterly or yearly report.
+
+**[chinese-relative-title-calculator](https://github.com/Leruo212/chinese-relative-title-calculator)** · `Python`
+Chinese kinship term calculator. What do I call my father's cousin's daughter? It gives you a straight answer.
+
+---
+
+### Tech Stack
+
+| | |
+|---|---|
+| **Languages** | Python · JavaScript / TypeScript · SQL |
+| **Modelling** | PyTorch · CNN / Transformer · self-supervised representation learning |
+| **Evaluation** | backtesting and benchmark comparison · IC / decile analysis · LLM prediction ledger |
+| **Application** | RAG · MCP · Agent · React · Node.js |
+
+---
+
+### Contact
+
+📮 <a href="mailto:m4rh0zen@foxmail.com">m4rh0zen@foxmail.com</a>
+
+<p align="right"><a href="#中文版">↑ 返回中文版</a> &nbsp;·&nbsp; <a href="#top">↑ Back to top</a></p>
