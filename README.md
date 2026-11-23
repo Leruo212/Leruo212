@@ -116,6 +116,8 @@
 
 ## English
 
+<sub>Standalone English page (with project screenshots): <a href="README.en.md">README.en.md</a></sub>
+
 ### About
 
 I build systems end to end: data cleaning, model training, and the packaging that lets someone else actually open and use the result.
@@ -161,4 +163,4 @@ Chinese kinship term calculator. What do I call my father's cousin's daughter? I
 
 📮 <a href="mailto:m4rh0zen@foxmail.com">m4rh0zen@foxmail.com</a>
 
-<p align="right"><a href="#中文版">↑ 返回中文版</a> &nbsp;·&nbsp; <a href="#top">↑ Back to top</a></p>
+<p align="right"><a href="#中文版">↑ 返回中文版</a> &nbsp;·&nbsp; <a href="#">↑ Back to top</a></p>
