@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://github.com/Leruo212"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87%E7%89%88-4E9A06?style=for-the-badge" alt="中文版"></a>
   &nbsp;
-  <a href="README.md"><img src="https://img.shields.io/badge/English-CURRENT-1F4E79?style=for-the-badge" alt="English"></a>
+  <img src="https://img.shields.io/badge/English-CURRENT-1F4E79?style=for-the-badge" alt="English">
 </p>
 
 ### About
