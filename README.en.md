@@ -1,7 +1,7 @@
 <img src="assets/banner.svg" alt="M1r4th0R — AI Algorithm Engineer" width="100%">
 
 <p align="center">
-  <a href="https://github.com/Leruo212"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87%E7%89%88-4E9A06?style=for-the-badge" alt="中文版"></a>
+  <a href="README.md"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-SWITCH-4E9A06?style=for-the-badge" alt="Switch to Chinese"></a>
   &nbsp;
   <img src="https://img.shields.io/badge/English-CURRENT-1F4E79?style=for-the-badge" alt="English">
 </p>
@@ -25,9 +25,11 @@ In 2026 I worked on defect detection and yield analysis at BOE's B8 plant in Cho
   <br>
   <sub><code>PyTorch</code> <code>LLM Agent</code> <code>Quant research</code></sub>
   <br><br>
-  A daily-frequency quant research workbench for the CSI 300. CNN-LSTM-Attention baseline plus an LLM forecasting agent, three-tier data fallback, backtesting against three benchmarks, IC and decile analysis, and a ledger that records every live prediction. Runs in the browser with your own API key.
+  <b>A quant workbench that publishes its own negative result.</b>
   <br>
-  → <a href="https://leruo212.github.io/stock-quant-agent/">Live demo</a>
+  Daily-frequency research stack for the CSI 300: CNN-LSTM-Attention baseline plus an LLM forecasting agent, three-tier data fallback, backtesting against three benchmarks, IC and decile analysis, and a ledger of every live prediction. Ships with the full negative result (49.74% directional accuracy, indistinguishable from baseline) and the price-volume backtest that replaced it.
+  <br>
+  → <a href="https://leruo212.github.io/stock-quant-agent/">Live demo</a> · <a href="https://github.com/Leruo212/stock-quant-agent">Source</a>
 </td>
 <td width="50%" valign="top">
   <a href="https://github.com/Leruo212/dna-ssl-project"><img src="assets/projects/dna-ssl-project.png" alt="dna-ssl-project — self-supervised representation learning on DNA" width="100%"></a>
@@ -36,7 +38,11 @@ In 2026 I worked on defect detection and yield analysis at BOE's B8 plant in Cho
   <br>
   <sub><code>PyTorch</code> <code>Self-supervised</code> <code>Bioinformatics</code></sub>
   <br><br>
-  Masked-reconstruction pretraining of a CNN encoder on unlabelled genomic fragments, transferred to four-species classification. Ships with full training logs, t-SNE plots, and a post-mortem that traces a failure to its root.
+  <b>A failure traced to its root, then written up.</b>
+  <br>
+  Masked-reconstruction pretraining of a CNN encoder, transferred to four-species classification (0.68 validation accuracy against a 0.25 chance baseline). Ships with full training logs, PCA and t-SNE plots, and a step-by-step post-mortem on why the classification head sat at chance level.
+  <br>
+  → <a href="https://github.com/Leruo212/dna-ssl-project">Source and post-mortem</a>
 </td>
 </tr>
 <tr>
@@ -50,9 +56,11 @@ In 2026 I worked on defect detection and yield analysis at BOE's B8 plant in Cho
   <br>
   <sub><code>Vanilla JS</code> <code>LLM Agent</code> <code>Zero dependency</code></sub>
   <br><br>
-  An EV range advisor. Give it a model, passenger count, origin and destination; it pulls real road networks, elevation and en-route weather, then accounts for every kWh, including what a climb costs and what a descent returns.
+  <b>Climbs cost m·g·Δh; descents return 62%.</b>
   <br>
-  → <a href="https://leruo212.github.io/ev-range-agent/">Live demo</a>
+  An EV range advisor that pulls real road networks, cumulative ascent (not net elevation), en-route weather and a 51-model catalogue, then accounts for every kWh. Pure static, zero dependencies, zero build step, no API keys required.
+  <br>
+  → <a href="https://leruo212.github.io/ev-range-agent/">Live demo</a> · <a href="https://github.com/Leruo212/ev-range-agent">Source</a>
 </td>
 <td width="50%" valign="top">
   <a href="https://github.com/Leruo212/screenshare-p2p"><img src="assets/projects/screenshare-p2p.png" alt="screenshare-p2p — peer-to-peer screen sharing" width="100%"></a>
@@ -61,9 +69,11 @@ In 2026 I worked on defect detection and yield analysis at BOE's B8 plant in Cho
   <br>
   <sub><code>WebRTC</code> <code>PeerJS</code> <code>Vanilla JS</code></sub>
   <br><br>
-  Peer-to-peer screen sharing in the browser with no server of your own. Send the link and the other side sees your screen. Signalling goes through a public broker; the video connects directly.
+  <b>Screen sharing with no server.</b>
   <br>
-  → <a href="https://leruo212.github.io/screenshare-p2p/screenshare.html">Open</a>
+  Send the link and the other side sees your screen. Twelve-character room codes (62¹² combinations), signalling through a public broker, video connected peer to peer, hosted as a static site at no cost.
+  <br>
+  → <a href="https://leruo212.github.io/screenshare-p2p/screenshare.html">Open</a> · <a href="https://github.com/Leruo212/screenshare-p2p">Source</a>
 </td>
 </tr>
 <tr>
@@ -77,7 +87,11 @@ In 2026 I worked on defect detection and yield analysis at BOE's B8 plant in Cho
   <br>
   <sub><code>React 19</code> <code>Express 5</code> <code>Coze API</code></sub>
   <br><br>
-  A conversational work-log assistant. Say what you did today; it becomes a structured daily, weekly, monthly, quarterly or yearly report.
+  <b>Say what you did; get the weekly report.</b>
+  <br>
+  A conversational work-log assistant that turns a spoken summary into structured daily, weekly, monthly, quarterly or yearly reports. Front end and back end separated, with a local fallback when no API is configured.
+  <br>
+  → <a href="https://github.com/Leruo212/boe-growth-agent">Source</a>
 </td>
 <td width="50%" valign="top">
   <a href="https://github.com/Leruo212/chinese-relative-title-calculator"><img src="assets/projects/chinese-relative-title-calculator.png" alt="chinese-relative-title-calculator — Chinese kinship term calculator" width="100%"></a>
@@ -86,7 +100,11 @@ In 2026 I worked on defect detection and yield analysis at BOE's B8 plant in Cho
   <br>
   <sub><code>Python</code> <code>Zero dependency</code></sub>
   <br><br>
-  Chinese kinship term calculator. What do I call my father's cousin's daughter? It gives you a straight answer.
+  <b>What do I call my father's cousin's daughter?</b>
+  <br>
+  Chinese kinship term calculator covering direct, paternal, maternal, sibling and in-law relations. Zero-dependency Python.
+  <br>
+  → <a href="https://github.com/Leruo212/chinese-relative-title-calculator">Source</a>
 </td>
 </tr>
 </table>
@@ -107,3 +125,5 @@ In 2026 I worked on defect detection and yield analysis at BOE's B8 plant in Cho
 ### Contact
 
 📮 <a href="mailto:m4rh0zen@foxmail.com">m4rh0zen@foxmail.com</a>
+
+<p align="right"><sub>Read this in <a href="README.md">中文</a></sub></p>
