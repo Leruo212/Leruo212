@@ -1,12 +1,14 @@
 # M1r4th0R
 
-在重庆做算法与 AI 应用，主要用 Python、PyTorch 和 JavaScript。这里放模型实验，也放一些自己会用的小工具。
+做算法与 AI 应用，主要用 Python、PyTorch 和 JavaScript。这里放模型实验，也放一些自己会用的小工具。
 
-[English](README.en.md) · [联系我](mailto:m4rh0zen@foxmail.com)
+[![中文](https://img.shields.io/badge/语言-中文-0969DA?style=flat-square)](README.md)
+[![English](https://img.shields.io/badge/Language-English-57606A?style=flat-square)](README.en.md)
+[![邮件联系](https://img.shields.io/badge/Email-联系我-0969DA?style=flat-square)](mailto:m4rh0zen@foxmail.com)
 
-![M1r4th0R，算法与 AI 应用，重庆](assets/banner.svg)
+![M1r4th0R，算法与 AI 应用](assets/banner.svg)
 
-2026 年在京东方重庆 B8 参与缺陷检测与良率分析。做项目时，我比较在意两件事：结果有没有可靠的对照，以及别人能不能把它跑起来。
+2026 年在京东方 B8 参与缺陷检测与良率分析。做项目时，我比较在意两件事：结果有没有可靠的对照，以及别人能不能把它跑起来。
 
 ## 模型实验
 
@@ -58,6 +60,6 @@ A 股日频量化研究，包含 CNN-LSTM-Attention 模型、回测和大模型�
 
 ## 联系
 
-[m4rh0zen@foxmail.com](mailto:m4rh0zen@foxmail.com)
+[![邮件联系：m4rh0zen@foxmail.com](https://img.shields.io/badge/Email-m4rh0zen%40foxmail.com-0969DA?style=flat-square)](mailto:m4rh0zen@foxmail.com)
 
 <!-- Owner: Leruo212. Reviewed: 2026-11-25. Review when a featured project, role, demo URL, or contact changes. -->

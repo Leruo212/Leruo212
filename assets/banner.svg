@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" fill="none" role="img" aria-label="M1r4th0R - AI Algorithm Engineer, Chongqing. Contact m4rh0zen@foxmail.com">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" fill="none" role="img" aria-label="M1r4th0R - Machine learning and AI applications. Contact m4rh0zen@foxmail.com">
   <style>
     .sans { font-family: "Inter", "SF Pro Display", -apple-system, "Helvetica Neue", "Segoe UI", Arial, sans-serif; }
     .mono { font-family: "SF Mono", "JetBrains Mono", "Roboto Mono", Menlo, Consolas, monospace; }
@@ -50,7 +50,7 @@
   <rect class="bg" x="0" y="0" width="1280" height="320"/>
   <rect class="frame" x="0.5" y="0.5" width="1279" height="319" stroke-width="1"/>
 
-  <text class="sans kicker" x="88" y="92" font-size="14" font-weight="600" letter-spacing="0">MACHINE LEARNING &amp; AI APPLICATIONS · CHONGQING</text>
+  <text class="sans kicker" x="88" y="92" font-size="14" font-weight="600" letter-spacing="0">MACHINE LEARNING &amp; AI APPLICATIONS</text>
 
   <rect class="chip" x="978" y="72" width="214" height="33" rx="16.5" stroke-width="1"/>
   <text class="mono mail" x="995" y="93.9" font-size="15" font-weight="600"

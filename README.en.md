@@ -1,12 +1,14 @@
 # M1r4th0R
 
-I work on machine learning and AI applications in Chongqing, mostly with Python, PyTorch and JavaScript. These repositories include model experiments and small tools I use myself.
+I work on machine learning and AI applications, mostly with Python, PyTorch and JavaScript. These repositories include model experiments and small tools I use myself.
 
-[中文](README.md) · [Contact](mailto:m4rh0zen@foxmail.com)
+[![中文](https://img.shields.io/badge/语言-中文-57606A?style=flat-square)](README.md)
+[![English](https://img.shields.io/badge/Language-English-0969DA?style=flat-square)](README.en.md)
+[![Email](https://img.shields.io/badge/Email-Contact-0969DA?style=flat-square)](mailto:m4rh0zen@foxmail.com)
 
-![M1r4th0R, machine learning and AI applications, Chongqing](assets/banner.svg)
+![M1r4th0R, machine learning and AI applications](assets/banner.svg)
 
-In 2026, I worked on defect detection and yield analysis at BOE's B8 plant in Chongqing. When building something, I care about having a useful baseline for the results and making it possible for someone else to run it.
+In 2026, I worked on defect detection and yield analysis at BOE's B8 plant. When building something, I care about having a useful baseline for the results and making it possible for someone else to run it.
 
 ## Model Experiments
 
@@ -58,6 +60,6 @@ These repositories include research experiments and application prototypes. Each
 
 ## Contact
 
-[m4rh0zen@foxmail.com](mailto:m4rh0zen@foxmail.com)
+[![Email: m4rh0zen@foxmail.com](https://img.shields.io/badge/Email-m4rh0zen%40foxmail.com-0969DA?style=flat-square)](mailto:m4rh0zen@foxmail.com)
 
 <!-- Owner: Leruo212. Reviewed: 2026-11-25. Review when a featured project, role, demo URL, or contact changes. -->
