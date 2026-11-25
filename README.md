@@ -1,129 +1,63 @@
-<img src="assets/banner.svg" alt="M1r4th0R — AI Algorithm Engineer" width="100%">
+# M1r4th0R
 
-<p align="center">
-  <img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-CURRENT-4E9A06?style=for-the-badge" alt="中文">
-  &nbsp;
-  <a href="README.en.md"><img src="https://img.shields.io/badge/English-SWITCH-1F4E79?style=for-the-badge" alt="Switch to English"></a>
-</p>
+在重庆做算法与 AI 应用，主要用 Python、PyTorch 和 JavaScript。这里放模型实验，也放一些自己会用的小工具。
 
-### 关于
+[English](README.en.md) · [联系我](mailto:m4rh0zen@foxmail.com)
 
-算法工程。习惯把一件事做完整：从数据清洗、模型训练，一路到打包成别人能直接点开用的东西。
+![M1r4th0R，算法与 AI 应用，重庆](assets/banner.svg)
 
-2026 年在京东方重庆 B8 做缺陷检测与良率分析，把模型判定的准确率变成了产线敢用的复判率。现在专注 AI 应用的落地与评测：一个模型跑通不算完，得有人愿意用、错了有人兜底，才算完。
+2026 年在京东方重庆 B8 参与缺陷检测与良率分析。做项目时，我比较在意两件事：结果有没有可靠的对照，以及别人能不能把它跑起来。
 
----
+## 模型实验
 
-### 精选项目
+### [stock-quant-agent](https://github.com/Leruo212/stock-quant-agent)
 
-<table>
-<tr>
-<td width="50%" valign="top">
-  <a href="https://github.com/Leruo212/stock-quant-agent"><img src="assets/projects/stock-quant-agent.png" alt="stock-quant-agent — A 股量化研究工作台" width="100%"></a>
-  <br>
-  <b><a href="https://github.com/Leruo212/stock-quant-agent">stock-quant-agent</a></b>
-  <br>
-  <sub><code>PyTorch</code> <code>LLM Agent</code> <code>量化研究</code></sub>
-  <br><br>
-  <b>连「模型没用」也写进 README 的量化工作台。</b>
-  <br>
-  沪深300 日频。CNN-LSTM-Attention 基线 + LLM 预测 Agent，配三级容错取数、三基准回测、IC 与分层检验、预测台账。附一条完整负结果（方向准确率 49.74%，与基线无差异）和之后改用量价信号的回测。
-  <br>
-  → <a href="https://leruo212.github.io/stock-quant-agent/">在线体验</a> · <a href="https://github.com/Leruo212/stock-quant-agent">源码</a>
-</td>
-<td width="50%" valign="top">
-  <a href="https://github.com/Leruo212/dna-ssl-project"><img src="assets/projects/dna-ssl-project.png" alt="dna-ssl-project — DNA 序列自监督表示学习" width="100%"></a>
-  <br>
-  <b><a href="https://github.com/Leruo212/dna-ssl-project">dna-ssl-project</a></b>
-  <br>
-  <sub><code>PyTorch</code> <code>自监督学习</code> <code>生物信息</code></sub>
-  <br><br>
-  <b>把一次失败查到根上，再写成复盘。</b>
-  <br>
-  掩码重构预训练 CNN 编码器，迁移到四物种分类（验证集 0.68，随机基线 0.25）。附完整训练日志、PCA / t-SNE，以及「分类头为什么停在随机水平」的逐项定位过程。
-  <br>
-  → <a href="https://github.com/Leruo212/dna-ssl-project">源码与复盘</a>
-</td>
-</tr>
-<tr>
-<td colspan="2">&nbsp;</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-  <a href="https://github.com/Leruo212/ev-range-agent"><img src="assets/projects/ev-range-agent.png" alt="ev-range-agent — 电车真实续航参谋" width="100%"></a>
-  <br>
-  <b><a href="https://github.com/Leruo212/ev-range-agent">ev-range-agent</a></b>
-  <br>
-  <sub><code>Vanilla JS</code> <code>LLM Agent</code> <code>零依赖</code></sub>
-  <br><br>
-  <b>爬坡按 m·g·Δh 算，下坡按 62% 回收。</b>
-  <br>
-  电车续航参谋。真实路网 + 累计爬升（不是净海拔差）+ 沿途天气 + 51 款车型库，把每度电花在哪儿逐项拆开。纯静态零依赖、零构建，数据源全免 Key。
-  <br>
-  → <a href="https://leruo212.github.io/ev-range-agent/">在线体验</a> · <a href="https://github.com/Leruo212/ev-range-agent">源码</a>
-</td>
-<td width="50%" valign="top">
-  <a href="https://github.com/Leruo212/screenshare-p2p"><img src="assets/projects/screenshare-p2p.png" alt="screenshare-p2p — 点对点屏幕共享" width="100%"></a>
-  <br>
-  <b><a href="https://github.com/Leruo212/screenshare-p2p">screenshare-p2p</a></b>
-  <br>
-  <sub><code>WebRTC</code> <code>PeerJS</code> <code>Vanilla JS</code></sub>
-  <br><br>
-  <b>没有服务器的屏幕共享。</b>
-  <br>
-  把链接发给对方，点开就能看。12 位房间号（62¹² 组合），信令只走公共 broker，画面端到端直连；纯静态托管，不花一分钱服务器。
-  <br>
-  → <a href="https://leruo212.github.io/screenshare-p2p/screenshare.html">在线打开</a> · <a href="https://github.com/Leruo212/screenshare-p2p">源码</a>
-</td>
-</tr>
-<tr>
-<td colspan="2">&nbsp;</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-  <a href="https://github.com/Leruo212/boe-growth-agent"><img src="assets/projects/boe-growth-agent.png" alt="boe-growth-agent — 工作记录与成长追踪助手" width="100%"></a>
-  <br>
-  <b><a href="https://github.com/Leruo212/boe-growth-agent">boe-growth-agent</a></b>
-  <br>
-  <sub><code>React 19</code> <code>Express 5</code> <code>Coze API</code></sub>
-  <br><br>
-  <b>随口说一句，自动变成周报。</b>
-  <br>
-  对话式工作记录助手：说清今天做了什么，它整理成日 / 周 / 月 / 季 / 年结构化报告。前后端分离，未配置 API 时走本地降级。
-  <br>
-  → <a href="https://github.com/Leruo212/boe-growth-agent">源码</a>
-</td>
-<td width="50%" valign="top">
-  <a href="https://github.com/Leruo212/chinese-relative-title-calculator"><img src="assets/projects/chinese-relative-title-calculator.png" alt="chinese-relative-title-calculator — 亲戚称呼计算器" width="100%"></a>
-  <br>
-  <b><a href="https://github.com/Leruo212/chinese-relative-title-calculator">chinese-relative-title-calculator</a></b>
-  <br>
-  <sub><code>Python</code> <code>零依赖</code></sub>
-  <br><br>
-  <b>「我爸的表哥的女儿」到底该叫什么。</b>
-  <br>
-  覆盖直系、父系旁亲、母系旁亲、同辈、配偶亲属五类关系，输入称呼路径直接给出结论。零依赖 Python。
-  <br>
-  → <a href="https://github.com/Leruo212/chinese-relative-title-calculator">源码</a>
-</td>
-</tr>
-</table>
+A 股日频量化研究，包含 CNN-LSTM-Attention 模型、回测和大模型预测台账。仓库保留了模型接近随机水平的结果，也比较了策略、指数和等权持有，方便检查收益到底从哪里来。
 
----
+[在线演示](https://leruo212.github.io/stock-quant-agent/) · [实验结果](https://github.com/Leruo212/stock-quant-agent#结果)
 
-### 技术栈
+![量化研究工作台：回测曲线与基准对照](assets/projects/stock-quant-agent.png)
 
-| | |
-|---|---|
-| **语言** | Python · JavaScript / TypeScript · SQL |
-| **建模** | PyTorch · CNN / Transformer · 自监督表示学习 |
-| **评测** | 回测与基准对照 · IC / 分层分析 · LLM 预测台账 |
-| **应用** | RAG · MCP · Agent · React · Node.js |
+### [dna-ssl-project](https://github.com/Leruo212/dna-ssl-project)
 
----
+用掩码重构预训练 CNN 编码器，再冻结编码器，训练 MLP 分类头区分四个物种。当前实验验证准确率为 68.25%；训练日志、特征可视化，以及分类头曾停在随机水平的排查过程都在仓库里。
 
-### 联系
+[实验与复盘](https://github.com/Leruo212/dna-ssl-project#复盘分类头为什么停在随机水平)
 
-📮 <a href="mailto:m4rh0zen@foxmail.com">m4rh0zen@foxmail.com</a>
+![DNA 实验：训练曲线与序列表征可视化](assets/projects/dna-ssl-project.png)
 
-<p align="right"><sub>Read this in <a href="README.en.md">English</a></sub></p>
+## 应用与小工具
+
+### [ev-range-agent](https://github.com/Leruo212/ev-range-agent)
+
+输入车型和路线，结合海拔、天气与载重估算能耗，分开计算爬坡消耗和下坡回收。支持多车对比、分享行程参数和打印报告；对话功能可选。结果用于行程参考，模型参数和数据局限在 README 中说明。
+
+[在线使用](https://leruo212.github.io/ev-range-agent/)
+
+### [screenshare-p2p](https://github.com/Leruo212/screenshare-p2p)
+
+给朋友发一条房间链接，在浏览器里共享屏幕。用 WebRTC 和 PeerJS，静态托管，无需自建后端；依赖公共信令服务，无法直连时会尝试 TURN 中继。
+
+[打开工具](https://leruo212.github.io/screenshare-p2p/screenshare.html)
+
+### [boe-growth-agent](https://github.com/Leruo212/boe-growth-agent)
+
+一个工作记录与总结的对话界面原型，用 React、Express 和 Coze API 搭建。未配置 API 时可以看演示流程；看板是示例数据，尚未实现工作日志持久化。
+
+### [chinese-relative-title-calculator](https://github.com/Leruo212/chinese-relative-title-calculator)
+
+查亲戚该怎么称呼的本地网页工具。可以逐步选关系、查反向称呼，也能按辈分浏览。Python 标准库实现；超出内置关系表的路径会返回未知。
+
+## 常用技术
+
+- **模型与数据**：Python、PyTorch、CNN、自监督学习。
+- **实验评估**：基准对照、回测、特征可视化、预测记录。
+- **应用开发**：JavaScript、React、Node.js、模型工具调用。
+
+这些仓库包含研究实验和应用原型，具体结果与限制见各项目 README。
+
+## 联系
+
+[m4rh0zen@foxmail.com](mailto:m4rh0zen@foxmail.com)
+
+<!-- Owner: Leruo212. Reviewed: 2026-11-25. Review when a featured project, role, demo URL, or contact changes. -->
